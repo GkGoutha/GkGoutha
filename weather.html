@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <section class="home">
+        <div class="navbar">
+            <div class="logo">
+            <div class="h1">
+                <h1>Enter the city name to Search</h1>
+            </div class="h1">
+                
+                <!-- <img src="icon.png" height="90 px" width="95" alt=""> -->
+            </div>
+            <div class="links">
+                <!-- <a href="">Home</a>
+                <a href="">About us</a>
+                <a href="">Concact-us</a>
+                <a href="">Sign in</a> -->
+            </div>
+        </div>
+        <div class="search">
+            <div class="searchcity">
+                <input type="text" id="search" placeholder="Enter the city name">
+                <button onclick="getInfo()">Search</button>
+            </div>
+            <div class="location">
+                <!-- <img src="loca..svg" width="35" alt="" -->
+           
+            </div>
+            <center><div class="weatherInfo">
+            <h1 ><span id="temp">0</span> <sup>o</sup>C</h1>
+       </div></center>
+        </div>
+    </section>
+    <script src="weather.js"></script>
+
+</body>
+
+</html>
